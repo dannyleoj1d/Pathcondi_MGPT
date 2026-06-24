@@ -1,0 +1,16 @@
+--------------------------------------------------
+-------------------------------------------TTTT---
+-----jj------------------------------------TT-T---
+MMMMj--j------jj---------------------TTTTT-TT-T---
+TTTTT---jMMMMj-----------------------TTTTT-TT-T---
+TTTTT---SSSSSS--j-----------SS-------TTTTT-TT-T---
+---------------------o-----------j---TTTTT-TT-T---
+--------------------------------j-j--TTTTT-TTTT---
+-----------------jMMMM--------Jj--S--TTTTT-TTTT---
+]----------------XXXSS---SSSS-<>-----TTTTT--------
+]<>---------------------------[]------------jjj--J
+-[]---------------------------[]-----------------J
+-[]-------------------MMMMMMMJ[]---MMMMMMMMj---jMA
+XXXXXXXXXX-XXXXXXXX--XXXXXXXXX[]---XXXXXXXXX---XXX
+
+使用的PROMPT: "many pipes, some enemies, little blocks, some coins,  no rect, high elevation"

@@ -1,0 +1,281 @@
+=== 2dRelPos MARIO GPT BATCH GENERATION REPORT ===
+
+--- [Run #1] ---
+使用的PROMPT: "many pipes, many enemies, many blocks, some coins,  little rect, high elevation"
+
+==================================================
+📊 關卡內容統計
+==================================================
+🔧 水管 (Pipes):      3 -> [some]
+👾 敵人 (Enemies):   13 -> [many]
+🧱 磚塊 (Blocks):   144 -> [many]
+💰 金幣 (Coins):      1 -> [little]
+⬜ 矩形 (Rects):      5 -> [many]
+⛰️  海拔 (Height):        -> [low]
+--------------------------------------------------
+📝 實際對應 Prompt: "many rect, little coins, some pipes, many enemies, many blocks, low elevation"
+==================================================
+
+🔍 差異比對結果:
+--------------------------------------------------
+❌ [不符] Pipe      : some         (預期: many | 實際: some)
+✅ [符合] Enemy     : many       
+✅ [符合] Block     : many       
+❌ [不符] Coin      : little       (預期: some | 實際: little)
+❌ [不符] Rect      : many         (預期: little | 實際: many)
+❌ [不符] Elevation : low          (預期: high | 實際: low)
+--------------------------------------------------
+
+
+--- [Run #2] ---
+使用的PROMPT: "some pipes, little enemies, many blocks, little coins,  little rect, high elevation"
+
+==================================================
+📊 關卡內容統計
+==================================================
+🔧 水管 (Pipes):      4 -> [many]
+👾 敵人 (Enemies):    2 -> [some]
+🧱 磚塊 (Blocks):    72 -> [many]
+💰 金幣 (Coins):      3 -> [little]
+⬜ 矩形 (Rects):      8 -> [many]
+⛰️  海拔 (Height):        -> [high]
+--------------------------------------------------
+📝 實際對應 Prompt: "many rect, little coins, many pipes, some enemies, many blocks, high elevation"
+==================================================
+
+🔍 差異比對結果:
+--------------------------------------------------
+❌ [不符] Pipe      : many         (預期: some | 實際: many)
+❌ [不符] Enemy     : some         (預期: little | 實際: some)
+✅ [符合] Block     : many       
+✅ [符合] Coin      : little     
+❌ [不符] Rect      : many         (預期: little | 實際: many)
+✅ [符合] Elevation : high       
+--------------------------------------------------
+
+
+--- [Run #3] ---
+使用的PROMPT: "many pipes, some enemies, many blocks, little coins,  many rect, high elevation"
+
+==================================================
+📊 關卡內容統計
+==================================================
+🔧 水管 (Pipes):      1 -> [little]
+👾 敵人 (Enemies):   19 -> [many]
+🧱 磚塊 (Blocks):   122 -> [many]
+💰 金幣 (Coins):      5 -> [some]
+⬜ 矩形 (Rects):      4 -> [many]
+⛰️  海拔 (Height):        -> [high]
+--------------------------------------------------
+📝 實際對應 Prompt: "many rect, some coins, little pipes, many enemies, many blocks, high elevation"
+==================================================
+
+🔍 差異比對結果:
+--------------------------------------------------
+❌ [不符] Pipe      : little       (預期: many | 實際: little)
+❌ [不符] Enemy     : many         (預期: some | 實際: many)
+✅ [符合] Block     : many       
+❌ [不符] Coin      : some         (預期: little | 實際: some)
+✅ [符合] Rect      : many       
+✅ [符合] Elevation : high       
+--------------------------------------------------
+
+
+--- [Run #4] ---
+使用的PROMPT: "no pipes, no enemies, some blocks, many coins,  many rect, low elevation"
+
+==================================================
+📊 關卡內容統計
+==================================================
+🔧 水管 (Pipes):      4 -> [many]
+👾 敵人 (Enemies):    0 -> [no]
+🧱 磚塊 (Blocks):   113 -> [many]
+💰 金幣 (Coins):     45 -> [many]
+⬜ 矩形 (Rects):      5 -> [many]
+⛰️  海拔 (Height):        -> [high]
+--------------------------------------------------
+📝 實際對應 Prompt: "many rect, many coins, many pipes, no enemies, many blocks, high elevation"
+==================================================
+
+🔍 差異比對結果:
+--------------------------------------------------
+❌ [不符] Pipe      : many         (預期: no | 實際: many)
+✅ [符合] Enemy     : no         
+❌ [不符] Block     : many         (預期: some | 實際: many)
+✅ [符合] Coin      : many       
+✅ [符合] Rect      : many       
+❌ [不符] Elevation : high         (預期: low | 實際: high)
+--------------------------------------------------
+
+
+--- [Run #5] ---
+使用的PROMPT: "some pipes, some enemies, some blocks, many coins,  no rect, low elevation"
+
+==================================================
+📊 關卡內容統計
+==================================================
+🔧 水管 (Pipes):      4 -> [many]
+👾 敵人 (Enemies):   11 -> [many]
+🧱 磚塊 (Blocks):    93 -> [many]
+💰 金幣 (Coins):      0 -> [no]
+⬜ 矩形 (Rects):      7 -> [many]
+⛰️  海拔 (Height):        -> [low]
+--------------------------------------------------
+📝 實際對應 Prompt: "many rect, no coins, many pipes, many enemies, many blocks, low elevation"
+==================================================
+
+🔍 差異比對結果:
+--------------------------------------------------
+❌ [不符] Pipe      : many         (預期: some | 實際: many)
+❌ [不符] Enemy     : many         (預期: some | 實際: many)
+❌ [不符] Block     : many         (預期: some | 實際: many)
+❌ [不符] Coin      : no           (預期: many | 實際: no)
+❌ [不符] Rect      : many         (預期: no | 實際: many)
+✅ [符合] Elevation : low        
+--------------------------------------------------
+
+
+--- [Run #6] ---
+使用的PROMPT: "little pipes, many enemies, little blocks, little coins,  some rect, high elevation"
+
+==================================================
+📊 關卡內容統計
+==================================================
+🔧 水管 (Pipes):      5 -> [many]
+👾 敵人 (Enemies):    6 -> [many]
+🧱 磚塊 (Blocks):   102 -> [many]
+💰 金幣 (Coins):      1 -> [little]
+⬜ 矩形 (Rects):      7 -> [many]
+⛰️  海拔 (Height):        -> [low]
+--------------------------------------------------
+📝 實際對應 Prompt: "many rect, little coins, many pipes, many enemies, many blocks, low elevation"
+==================================================
+
+🔍 差異比對結果:
+--------------------------------------------------
+❌ [不符] Pipe      : many         (預期: little | 實際: many)
+✅ [符合] Enemy     : many       
+❌ [不符] Block     : many         (預期: little | 實際: many)
+✅ [符合] Coin      : little     
+❌ [不符] Rect      : many         (預期: some | 實際: many)
+❌ [不符] Elevation : low          (預期: high | 實際: low)
+--------------------------------------------------
+
+
+--- [Run #7] ---
+使用的PROMPT: "no pipes, many enemies, no blocks, some coins,  some rect, low elevation"
+
+==================================================
+📊 關卡內容統計
+==================================================
+🔧 水管 (Pipes):      4 -> [many]
+👾 敵人 (Enemies):   11 -> [many]
+🧱 磚塊 (Blocks):   100 -> [many]
+💰 金幣 (Coins):     14 -> [many]
+⬜ 矩形 (Rects):      4 -> [many]
+⛰️  海拔 (Height):        -> [low]
+--------------------------------------------------
+📝 實際對應 Prompt: "many rect, many coins, many pipes, many enemies, many blocks, low elevation"
+==================================================
+
+🔍 差異比對結果:
+--------------------------------------------------
+❌ [不符] Pipe      : many         (預期: no | 實際: many)
+✅ [符合] Enemy     : many       
+❌ [不符] Block     : many         (預期: no | 實際: many)
+❌ [不符] Coin      : many         (預期: some | 實際: many)
+❌ [不符] Rect      : many         (預期: some | 實際: many)
+✅ [符合] Elevation : low        
+--------------------------------------------------
+
+
+--- [Run #8] ---
+使用的PROMPT: "no pipes, some enemies, no blocks, some coins,  many rect, low elevation"
+
+==================================================
+📊 關卡內容統計
+==================================================
+🔧 水管 (Pipes):      4 -> [many]
+👾 敵人 (Enemies):    9 -> [many]
+🧱 磚塊 (Blocks):   105 -> [many]
+💰 金幣 (Coins):      8 -> [some]
+⬜ 矩形 (Rects):      3 -> [many]
+⛰️  海拔 (Height):        -> [high]
+--------------------------------------------------
+📝 實際對應 Prompt: "many rect, some coins, many pipes, many enemies, many blocks, high elevation"
+==================================================
+
+🔍 差異比對結果:
+--------------------------------------------------
+❌ [不符] Pipe      : many         (預期: no | 實際: many)
+❌ [不符] Enemy     : many         (預期: some | 實際: many)
+❌ [不符] Block     : many         (預期: no | 實際: many)
+✅ [符合] Coin      : some       
+✅ [符合] Rect      : many       
+❌ [不符] Elevation : high         (預期: low | 實際: high)
+--------------------------------------------------
+
+
+--- [Run #9] ---
+使用的PROMPT: "some pipes, little enemies, many blocks, no coins,  little rect, high elevation"
+
+==================================================
+📊 關卡內容統計
+==================================================
+🔧 水管 (Pipes):      4 -> [many]
+👾 敵人 (Enemies):    6 -> [many]
+🧱 磚塊 (Blocks):    94 -> [many]
+💰 金幣 (Coins):      3 -> [little]
+⬜ 矩形 (Rects):      8 -> [many]
+⛰️  海拔 (Height):        -> [low]
+--------------------------------------------------
+📝 實際對應 Prompt: "many rect, little coins, many pipes, many enemies, many blocks, low elevation"
+==================================================
+
+🔍 差異比對結果:
+--------------------------------------------------
+❌ [不符] Pipe      : many         (預期: some | 實際: many)
+❌ [不符] Enemy     : many         (預期: little | 實際: many)
+✅ [符合] Block     : many       
+❌ [不符] Coin      : little       (預期: no | 實際: little)
+❌ [不符] Rect      : many         (預期: little | 實際: many)
+❌ [不符] Elevation : low          (預期: high | 實際: low)
+--------------------------------------------------
+
+
+--- [Run #10] ---
+使用的PROMPT: "some pipes, some enemies, no blocks, many coins,  no rect, low elevation"
+
+==================================================
+📊 關卡內容統計
+==================================================
+🔧 水管 (Pipes):      6 -> [many]
+👾 敵人 (Enemies):    4 -> [many]
+🧱 磚塊 (Blocks):    48 -> [many]
+💰 金幣 (Coins):      0 -> [no]
+⬜ 矩形 (Rects):      9 -> [many]
+⛰️  海拔 (Height):        -> [low]
+--------------------------------------------------
+📝 實際對應 Prompt: "many rect, no coins, many pipes, many enemies, many blocks, low elevation"
+==================================================
+
+🔍 差異比對結果:
+--------------------------------------------------
+❌ [不符] Pipe      : many         (預期: some | 實際: many)
+❌ [不符] Enemy     : many         (預期: some | 實際: many)
+❌ [不符] Block     : many         (預期: no | 實際: many)
+❌ [不符] Coin      : no           (預期: many | 實際: no)
+❌ [不符] Rect      : many         (預期: no | 實際: many)
+✅ [符合] Elevation : low        
+--------------------------------------------------
+
+
+
+=== FINAL STATISTICS SUMMARY ===
+
+Pipe      : 0/10 correct (0.0%)
+Enemy     : 4/10 correct (40.0%)
+Block     : 4/10 correct (40.0%)
+Coin      : 4/10 correct (40.0%)
+Rect      : 3/10 correct (30.0%)
+Elevation : 5/10 correct (50.0%)

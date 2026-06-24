@@ -1,0 +1,16 @@
+-----------------------------------------------------------------------------------------------TTTTTTT------------------------------------------------------------TTTTTT-----TTTT-----TTTT----
+-----------------TTTTT---------------------------------TTTT------------------------------------TTT--TT------------------------------------------------------------TT---T-----TTTT-----TTTT----
+-----------------TT-TT---------------------------------TTTT------------------------------------TT-T-TT------------------------------------------------------------T-T-TT-----TTTT-----TTTT----
+----j------------TTTTT----TTTT-----------------TTTT----TTTT--------------------E---------------T-TT--T-----TTTT-------------------------------TTTTTT--------------T-TT-T-----TTTT-----T-TT----
+-----jj----------T-T-T----TTTT-----------------TTTT----TTTT------------------------------------T--TT-T-----TTTT-------------------------------TT--TT--------------T-TTTT-----TTTT-----TTTT----
+---j---jjMMM-----T-T-T----TTTT-----------------TTTT----TTTT------------------------------------TT--T-T-----TTTT-------------------------------T-TT-T-------E------T--TTT-----TTTT-----TTTT--SS
+MMj-----TTTT-----TT-TT----TTTT-----------------TTTT----TTTT------------------------------------TT---TT-----TTTT-------------------------------T-TT-T--------------TT-T-T-----TTTT-----TTTT----
+XXX-----TTTT-----TT-TT---------------------------------TTTT------------------------------------TTTTTTT-------------------E---E----------------TT--TT--------------TT--TT----------------------
+--------TTTT-----TTTTT----------JM---------------------TTTT------JM-----jMM-----------JM----------------------------------------E----E----X---TTTTTT--------------TTTTTT----------------------
+--------TTTT---------------------X------?QQ-----------------jM---XX----jXXX-----------XX-------j--------------------jM-----S?SSSSSSSSSSSSSX---------------------------------------------------
+--------TTTT---------------------X------J--------------------X---XX---jXXXX----jM-----XX-------B---------------------X------J--------------------------------------------------XXXXXXXXXXXXXXX
+---------------------------------X------J--------------------X---XX--jXXXXX-----X-----XX-------b----------------------------J-----------------------------------------------------------------
+------------MMMMMMMMMMMMMMMMMMMJ-XMMMMMMAMMMMMMMMMMMMMMMMMMj-XMMJXXMjXXXXXXMMMj-XMMMMJXXMMMMMMjBMMMMMMMMMMMMMMMMMMMj--MMMMMMAMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+--------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+使用的PROMPT: "little pipes, little enemies, little blocks, little coins,  many rect, low elevation"
