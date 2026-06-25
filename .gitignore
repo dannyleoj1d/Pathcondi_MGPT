@@ -58,6 +58,9 @@ mlruns/
 
 # 忽略訓練出來的模型資料夾 (位於 mario_gpt/ 下)
 mario_gpt/Mario-GPT2-700-context-length/
+mario_gpt/M_2026*/
+mario_gpt/T_2026*/
+mario_gpt/2026*/
 mario_gpt/Mario-GPT2-*/
 multi_iter_test*
 Mario-GPT2-*
